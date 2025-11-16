@@ -8,7 +8,7 @@ for (let i = 0 ;i < 12 ; i++){
 }
 console.log("password -->", password)
 let passwordBox =document.getElementById("password")
-passwordBox.innerText = `"The password is ${password} and the length is ${password.length}`;
+passwordBox.innerText = `The password is ${password} and the length is ${password.length}`;
 
 }
 
